@@ -58,6 +58,7 @@ typedef enum : NSUInteger {
 - (NSString *)stringAtAddress:(NSUInteger)address;
 
 - (NSUInteger)dataOffsetForAddress:(NSUInteger)address;
+- (NSUInteger)addressForDataOffset:(NSUInteger)offset;
 
 - (const void *)bytes;
 - (const void *)bytesAtOffset:(NSUInteger)offset;
